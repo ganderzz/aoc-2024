@@ -12,7 +12,7 @@ export async function parseInput() {
       continue;
     }
     firstList.push(parseInt(match[0].trim(), 10));
-    secondList.push(parseInt(match[3].trim().trim(), 10));
+    secondList.push(parseInt(match[3].trim(), 10));
   }
 
   firstList.sort();
